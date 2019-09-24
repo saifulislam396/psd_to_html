@@ -1,0 +1,243 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+    margin: 0;
+    padding: 0;
+    color: #626262;
+   font-family: 'Playfair Display', serif;
+}sss
+/*--header start--*/
+header{
+    padding: 40px 0;
+}
+.wrapper{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px o;
+    /*border: 1px solid black;*/
+}
+.logo{
+    width: 15%;
+ /*border: 1px solid black;*/
+    float: left;
+    margin-top: 5px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    /*border: 1px solid black;*/
+    float: right;
+}
+.menu ul{
+      float: right;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{  
+    font-weight: 400;
+    font-size: 15px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.5s;
+    padding: 0 60px;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #000;
+    background-color:#f2f2f2; 
+}
+/*--header start--*/
+/*--Banner start--*/
+.banner {
+}
+.banner img{
+    width: 100%;
+}
+/*--Banner end--*/
+/*--getaway start--*/
+.getway {padding: 50px 0;
+}
+.wrapper{
+    overflow: hidden;
+      width: 80%;
+    margin: 0 auto;
+        padding: 25px 0;
+   /* border: 1px solid;*/
+}
+.content {
+}
+.content h1{
+     font-weight: 400;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+.content p{
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 1.1px;
+    margin-bottom: 45px;
+}
+.common-p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    
+}
+/*--getaway end--*/
+/*--blog start--*/
+.blog
+.blog-content
+.single1{
+     width: 47%;
+    float: left;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.single1:nth-child(even){
+    margin-left: 6%;
+}
+.single1 img{
+    width: 100%;
+}
+/*--blog start--*/
+/*--signup from start--*/
+
+.signup_from{
+    width: 100%;
+    height: 280px;
+    background-color: #F0F0F0;
+}
+.signup_from{
+    padding: 50px 0;
+}
+.signup_wrapper{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f0f0f0; 
+}
+.signup{
+    text-align: center; 
+}
+.signup h1{  
+    font-size: 30px;
+    margin-bottom: 100px; 
+}
+.form{
+    width: 350px;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+.form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+        padding-right: 60px;
+}
+button{
+    
+}
+.form button{
+    background: transparent;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    right: 1px;
+    margin-left: 5px;
+}
+/*--signup from end--*/
+/*--button start--*/
+.button{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+.button button{
+    font-size: 20px;
+    color: #626262;
+       padding: 25px 50px;
+}
+/*--button start--*/
+/*footer start*/
+footer{
+    background-color:#f0f0f0;
+}
+.wrapper{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px o;
+    /*border: 1px solid black;*/
+}
+.footer_left{
+    width: 40%;
+    float: left;
+   
+}
+.footer_left ul{
+    
+}
+.footer_left ul li{
+    list-style: none;
+    float: left;
+}
+.footer_left ul li a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    padding-right: 20px;
+	transition: .5s;
+}
+.footer_left ul li a:hover{
+    color:#47484B;
+}
+.footer_right{
+    width: 40%;
+	float: right;
+    
+}
+
+.footer_right p{
+    
+}
+.footer_right ul{
+    float: right;
+    
+    
+}
+.footer_right ul li {    
+    float: right;
+    list-style: none;
+    margin-left: 20px;
+    
+    
+}
+.footer_right ul li a{
+    text-decoration: none;
+        color: #626262;
+}
+/*footer end*/
